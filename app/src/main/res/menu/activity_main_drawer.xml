@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="About Us">
+            <menu>
+            <item
+                android:id="@+id/History_ircs"
+                android:title="History of IRCS"
+                android:icon="@drawable/ic_baseline_note_24"
+                />
+        <item
+            android:id="@+id/principle_values"
+            android:title="Princeples and Values"
+            android:icon="@drawable/ic_baseline_library_books_24"
+            />
+            </menu>
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Join Hands" >
+            <menu>
+                
+                <item
+                    android:title="Blood Donation"
+                    android:id="@+id/donate_blood"
+                    android:icon="@drawable/ic_baseline_bloodtype_24"/>
+                <item
+                    android:title="Become a Volunteer"
+                    android:id="@+id/become_volunteer"
+                    android:icon="@drawable/ic_baseline_hail_24"/>
+                <item
+                    android:title="Become a Intern"
+                    android:id="@+id/become_intern"
+                    android:icon="@drawable/ic_baseline_engineering_24"/>
+
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Our Services" >
+            <menu>
+                <item
+                    android:title="Blood and transfusion services"
+                    android:id="@+id/blood_tranfusions"
+                    android:icon="@drawable/ic_baseline_water_drop_24"/>
+                <item
+                    android:title="Disaster Management"
+                    android:id="@+id/disaster_management"
+                    android:icon="@drawable/ic_baseline_fireplace_24"/>
+                <item
+                    android:title="First Aid Training"
+                    android:id="@+id/fistaid_training"
+                    android:icon="@drawable/ic_baseline_medical_services_24"/>
+                <item
+                    android:title="SERV"
+                    android:id="@+id/serv"
+                    android:icon="@drawable/ic_baseline_home_repair_service_24"/>
+                <item
+                    android:id="@+id/youth_redcross"
+                    android:title="Youth Red Cross"
+                    android:icon="@drawable/ic_baseline_groups_24"/>
+                <item
+                    android:id="@+id/junior_redcross"
+                    android:title="Junior Red Cross"
+                    android:icon="@drawable/ic_baseline_child_care_24"/>
+                <item
+                    android:id="@+id/tb_control"
+                    android:title="TB Control Project"
+                    android:icon="@drawable/ic_baseline_diversity_1_24"/>
+                <item
+                    android:id="@+id/urban_welfare"
+                    android:title="Family Welfare Centre"
+                    android:icon="@drawable/ic_baseline_family_restroom_24"/>
+                <item
+                    android:id="@+id/redcross_optical"
+                    android:title="Red Cross Optical"
+                    android:icon="@drawable/ic_baseline_lens_24"/>
+                <item
+                    android:id="@+id/pariposhanam"
+                    android:title="Pariposhanam"
+                    android:icon="@drawable/ic_baseline_clean_hands_24" />
+
+
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Contact Us" >
+            <menu>
+                <item
+                    android:title="State Branch Contact"
+                    android:id="@+id/state_contact"
+                    android:icon="@drawable/ic_baseline_contact_page_24"/>
+               <item
+                android:title="Distict Branch Contact"
+                android:id="@+id/distict_contact"
+                   android:icon="@drawable/ic_baseline_local_phone_24"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

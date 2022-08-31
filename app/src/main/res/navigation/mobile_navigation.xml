@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.indianredcrossscoiety.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_History_ircs3"
+            app:destination="@id/History_ircs"
+            app:popUpTo="@layout/fragment_history"
+            app:popUpToInclusive="true"
+            />
+        <action
+            android:id="@+id/action_nav_home_to_youth_redcross"
+            app:destination="@id/youth_redcross" />
+        <action
+            android:id="@+id/action_nav_home_to_donate_blood"
+            app:destination="@id/donate_blood" />
+        <action
+            android:id="@+id/action_nav_home_to_home_contactus"
+            app:destination="@id/home_contactus" />
+
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.example.indianredcrossscoiety.ui.gallery.GalleryFragment"-->
+<!--        android:label="@string/menu_gallery"-->
+<!--        tools:layout="@layout/fragment_gallery" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.example.indianredcrossscoiety.ui.slideshow.SlideshowFragment"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_slideshow" />-->
+    <fragment
+        android:id="@+id/state_contact"
+        android:label="State Contact"
+        tools:layout="@layout/fragment_item_list"
+        android:name="com.example.indianredcrossscoiety.ItemFragment"/>
+    <fragment
+        android:id="@+id/History_ircs"
+        android:label="History of IRCS"
+        tools:layout="@layout/fragment_history"
+        android:name="com.example.indianredcrossscoiety.HistoryFragment"
+        />
+    <fragment
+        android:id="@+id/principle_values"
+        android:label="Princiiple Values"
+        tools:layout="@layout/fragment_principlevalue"
+        android:name="com.example.indianredcrossscoiety.PrinciplevalueFragment"/>
+    <fragment
+        android:id="@+id/distict_contact"
+        android:label="Distict Contact"
+        tools:layout="@layout/fragment_item_list2"
+        android:name="com.example.indianredcrossscoiety.ItemFragment2"/>
+    <fragment
+        android:id="@+id/blood_tranfusions"
+        android:label="Blood Transfusions"
+        tools:layout="@layout/fragment_bloodtransfusions"
+        android:name="com.example.indianredcrossscoiety.bloodtransfusionsFragment"/>
+    <fragment
+        android:id="@+id/disaster_management"
+        android:label="Disaster Management"
+        tools:layout="@layout/fragment_disastermanagement"
+        android:name="com.example.indianredcrossscoiety.DisastermanagementFragment"/>
+    <fragment
+        android:id="@+id/fistaid_training"
+        android:label="First Aid Training"
+        tools:layout="@layout/fragment_first_aid"
+        android:name="com.example.indianredcrossscoiety.FirstAidFragment"/>
+    <fragment
+        android:id="@+id/serv"
+        tools:layout="@layout/fragment_serv"
+        android:label="SERV"
+        android:name="com.example.indianredcrossscoiety.ServFragment"/>
+    <fragment
+        android:id="@+id/junior_redcross"
+        tools:layout="@layout/fragment_junior"
+        android:label="Junior Red Cross"
+        android:name="com.example.indianredcrossscoiety.JuniorFragment"/>
+    <fragment
+        android:id="@+id/tb_control"
+        tools:layout="@layout/fragment_tbcontrol"
+        android:label="TB Contral Project"
+        android:name="com.example.indianredcrossscoiety.TbcontrolFragment"/>
+    <fragment
+        android:id="@+id/urban_welfare"
+        tools:layout="@layout/fragment_urbanfamily"
+        android:label="Urban Family Welfare Centre"
+        android:name="com.example.indianredcrossscoiety.UrbanfamilyFragment"/>
+    <fragment
+        android:id="@+id/redcross_optical"
+        tools:layout="@layout/fragment_red_cross_optical"
+        android:label="Red Cross Optical"
+        android:name="com.example.indianredcrossscoiety.redCross_opticalFragment"/>
+    <fragment
+        android:id="@+id/pariposhanam"
+        tools:layout="@layout/fragment_pariposhanam"
+        android:label="Pariposhanam"
+        android:name="com.example.indianredcrossscoiety.PariposhanamFragment"/>
+    <fragment
+        android:id="@+id/donate_blood"
+        tools:layout="@layout/fragment_donateblood"
+        android:label="Donate Blood"
+        android:name="com.example.indianredcrossscoiety.DonatebloodFragment"/>
+    <fragment
+        android:id="@+id/become_volunteer"
+        tools:layout="@layout/fragment_volunterform"
+        android:label="Become A Volunteer"
+        android:name="com.example.indianredcrossscoiety.VolunterformFragment"/>
+<fragment
+    android:id="@+id/become_intern"
+    tools:layout="@layout/fragment_become_intern"
+    android:label="Become A Intern"
+    android:name="com.example.indianredcrossscoiety.BecomeInternFragment"/>
+    <fragment
+        android:id="@+id/youth_redcross"
+        tools:layout="@layout/fragment_youthredcross"
+        android:label="Youth Red Cross"
+        android:name="com.example.indianredcrossscoiety.YouthredcrossFragment"/>
+<fragment
+    android:id="@+id/about_appp"
+    tools:layout="@layout/fragment_abouttheapp"
+    android:label="About The App"
+    android:name="com.example.indianredcrossscoiety.AbouttheappFragment"/>
+    <fragment
+        android:id="@+id/home_contactus"
+        tools:layout="@layout/fragment_homecontactus"
+        android:label="Contact Us"
+        android:name="com.example.indianredcrossscoiety.HomecontactusFragment"/>
+
+
+</navigation>

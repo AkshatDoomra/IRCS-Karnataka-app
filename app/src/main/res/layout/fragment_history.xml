@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryFragment"
+
+   >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:id="@+id/cont"
+
+    >
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/heading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HISTORY OF RED CROSS AND RED CRESCENT MOVEMENT"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading1content"
+        android:text="Young Swiss businessman, Jean Henry Dunant was appalled by the condition of the wounded soldiers he happened to see in the battle field of Solferino , Italy in 1859 during the Franco – Austrian war. He arranged relief services with the help of the local community immediately. He wrote the book ‘Memory of Solferino’ suggesting that a neutral organization be established to aid the wounded soldiers in times of war. Just a year after the release of this book, an international conference was convened in Geneva to consider the suggestions of Henry Dunant and thus the Red Cross Movement was born. International Red Cross Movement was established by Geneva Convention of 1864. The name and the emblem of the movement are derived from the reversal of the Swiss national flag, to honor the country in which Red Cross was found.The International Red Cross and Red Crescent Movement is the largest humanitarian network in the world. Its mission is to alleviate human suffering, protect life and health, and uphold human dignity especially during armed conflicts and other emergencies. It is present in every country and supported by millions of volunteers.
+The International Red Cross and Red Crescent Movement is dedicated to preventing and alleviating human suffering in warfare and in emergencies such as epidemics, floods and earthquakes.
+It is not a single organization. It is composed of the International Committee of the Red Cross (ICRC), the International Federation of Red Cross and Red Crescent Societies and the 190 individual National Societies. Each has its own legal identity and role, but they are all united by seven Fundamental Principles."
+        android:textAlignment="textStart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heading1"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textIsSelectable="true"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading2"
+        android:text="ORIGIN OF INDIAN RED CROSS SOCIETY"
+        app:layout_constraintTop_toBottomOf="@id/heading1content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textIsSelectable="true"
+        android:paddingTop="10dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading2content"
+        app:layout_constraintTop_toBottomOf="@id/heading2"
+        android:text="During the first world war in 1914, India had no organization for relief services to the affected soldiers, except a branch of the St. John Ambulance Association and by a Joint Committee of the British Red Cross. Later, a branch of the same Committee was started to undertake the much needed relief services in collaboration with the St. John Ambulance Association in aid of the soldiers as well as civilian sufferers of the horrors of that great war. A bill to constitute the Indian Red Cross Society, Independent of the British Red Cross, was introduced in the Indian Legislative Council on 3rd March 1920 by Sir Claude Hill, member of the Viceroy’s Executive Council who was also Chairman of the Joint war Committee in India . The Bill was passed on 17th March 1920 and became Act XV of 1920 with the assent of the Governor General on the 20th March 1920 .
+On 7th June 1920 , fifty members were formally nominated to constitute the Indian Red Cross Society and the first Managing Body was elected from among them with Sir Malcolm Hailey as Chairman.
+Indian Red Cross Society is a member of the International Federation of Red Cross and Red Crescent Movement. Relations between the IRCS and the India Delegation of the Federation are strong.
+
+"
+        android:textIsSelectable="true"
+        android:textSize="14sp"
+        android:padding="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading3"
+        app:layout_constraintTop_toBottomOf="@id/heading2content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="HISTORY OF KARNATAKA RED CROSS"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading3content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading3"
+        android:text="Indian Red Cross Society was established as per the Indian Red Cross Act-1920, a branch of Indian Red Cross Society, Karnataka State Branch was established in the year 1921.
+Indian Red Cross Society, Karnataka State Branch has been a trusted destination for the poor and needy. For over nine decades,the Red Cross has earned the distinction of pioneering in relief operations and rendering services, benefiting innumerable suffering communities throughout the state."
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:textIsSelectable="true"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subheading3"
+        app:layout_constraintTop_toBottomOf="@id/heading3content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:text="The Indian Red Cross Society Karnataka State, district and taluk branches together with Government of Karnataka have committed to:"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        android:paddingTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/suheading3content"
+        android:text="Creating awareness on climate change.
+\nProviding humanitarian services.\nImproving capacities to respond.\nReducing vulnerability of communities most strongly affected.\n Turning youth Red Cross junior Red Cross volunteers as change agents in their local communities.\nMobilizing human and financial resources to empower societies to be resilient"
+        app:layout_constraintTop_toBottomOf="@id/subheading3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textIsSelectable="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading4"
+        app:layout_constraintTop_toBottomOf="@id/suheading3content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="RED CROSS EMBLEM"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textIsSelectable="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heading4"
+        android:textSize="14dp"
+        android:text="The red cross, red crescent and red crystal are symbols of protection.
+International law protects the people who wear them, and the buildings and transport which display them.
+These people aren’t part of a conflict – they’re simply there to help anyone who needs it.
+The emblems are not religious symbols.
+The emblem of a red cross – with arms of equal length on a white background – is one of the most recognized symbols in the world."
+        android:padding="10dp"
+        android:textIsSelectable="true"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
